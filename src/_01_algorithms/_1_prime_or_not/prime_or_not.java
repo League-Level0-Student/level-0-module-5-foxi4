@@ -6,8 +6,17 @@ public class prime_or_not {
 	public static void main(String[] args) {
 		
 		String number = JOptionPane.showInputDialog(null, "Gimme a number :D");
-		for(int i=0; i>0; i++);
-		//if(number % 2==0) {
+		int numbers=Integer.parseInt(number);
+		for(int i=2; i<numbers; i++) {
+		if(numbers % i==0) {
+			JOptionPane.showMessageDialog(null, "The number is not prime.");
+			System.exit(0);
+			
+		}
 		
-	}
+		}
+		JOptionPane.showMessageDialog(null,"The number is prime.");
+		}
 }
+
+
