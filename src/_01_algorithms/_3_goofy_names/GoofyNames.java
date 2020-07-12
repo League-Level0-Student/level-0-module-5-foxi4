@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 public class GoofyNames {
 	public static void main(String[] args) {
-		String goofyName = "Potato.";
+		String goofyName = "";
 
 		// 1. Ask the user to enter their name
 String name=JOptionPane.showInputDialog("What is your name");
@@ -27,15 +27,18 @@ for(int i=0;i<name.length();i++) {
 
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			//    and lower case for ODD characters.
-	if(i % 2==0) {
-
+	if(i % 2==1) {
+		variable=variable.toLowerCase();
 	}
-			
+	if(i % 2==0)
+		variable=variable.toUpperCase();
 			// 6. ADD this String  (containing 1 char) to the goofyName String
-
+//um its only doing upper case
+	goofyName+=variable;
 }
 		// 7. Use pop-up to show user their Goofy name
-
+System.out.print(goofyName);
 	}
 }
-//can't hear yall cuz there is music playing :}
+
+//can't hear yall cuz there is music playing :} <- yeah
