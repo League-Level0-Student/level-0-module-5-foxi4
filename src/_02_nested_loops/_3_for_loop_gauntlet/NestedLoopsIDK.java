@@ -42,12 +42,13 @@ public class NestedLoopsIDK {
 			//woooooooooooooahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 		
 		//5. done ;]
-	for(int i=0; i<784;i++) {
-		if(i%7==0) {
-		System.out.println(i);
-		}
-	}
-	}
+	//for(int i=0; i<784;i++) {
+	//	if(i%7==0) {
+	//	System.out.println(i);
+	//	}
+//	}
+		//6. done... next class do 7 hehe 
+}
 }
 
 
