@@ -1,7 +1,13 @@
+
+int circle1=250;
+int circle2=750;
+int speed=5;
 void setup(){
   size(1000,450);
+  
 }
 void draw(){
+  background(#FFFFFF);
   int size=400;
   for(int i=0;i<80;i++){
     int ellipse=i;
@@ -12,7 +18,7 @@ void draw(){
     else{
       noFill();
     }
-  ellipse(250,225,size,size);
+  ellipse(circle1,225,size,size);
   size-=10;
     
   }
@@ -26,9 +32,14 @@ void draw(){
     else{
       noFill();
     }
-  ellipse(750,225,size,size);
+  ellipse(circle2,225,size,size);
   size-=10;
     
+  }
+  circle1+=speed;
+  circle2-=speed;
+  if(circle1==0||circle1==1000){
+    speed=-speed;
   }
 }
 
