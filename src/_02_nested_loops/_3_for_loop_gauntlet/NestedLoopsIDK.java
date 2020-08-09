@@ -63,6 +63,7 @@ public class NestedLoopsIDK {
 		for(int i=0; i<2; i++) {
 			System.out.println(i);
 		}
+		//continue and ask for help~ ;)
 		//Nested For-Loops - 1.
 }
 }
