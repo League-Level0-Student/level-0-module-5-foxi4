@@ -47,7 +47,23 @@ public class NestedLoopsIDK {
 	//	System.out.println(i);
 	//	}
 //	}
-		//6. done... next class do 7 hehe 
+		//6. done... next class do 7 hehe
+
+			
+		//for(int i=2008; i<2020; i++) {
+			//System.out.println("in " +i+ " i was " +(i-2008)); 
+			
+			
+		//}
+		//System.out.println("in 2020 i am 12");
+			//I don't know how to connect them
+	
+		//7.done
+		//MUSIC PLAYING :}
+		for(int i=0; i<2; i++) {
+			System.out.println(i);
+		}
+		//Nested For-Loops - 1.
 }
 }
 
