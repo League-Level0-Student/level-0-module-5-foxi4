@@ -69,15 +69,15 @@ public class NestedLoopsIDK {
 		
 		//Nested For-Loops - 1. done
 		
-		//for(int i=0; i<10; i++) {
-			//for(int j=0; j<2; j++) {
+		for(int i=0; i<10; i++) {
+			for(int j=0; j<2; j++) {
 				String cat = "the value of the string"; 
+			System.out.println(i+ " "+j);
 					
 		}
 	//Nested For-Loops - 2. 
 }//um something messed up is happening
-}
-
+}\}
 
 
 
