@@ -79,16 +79,44 @@ public class NestedLoopsIDK {
 
 		// }
 		// Nested For-Loops - 2. done
-		int number=1;
-		for(int i = 0; i < 10; i++) {
-			for(int j = 0; j < 10; j++) {
-				System.out.print(number);
-				number++;
-			}
-			System.out.println();
-		}
-	
-		// Nested For-loops - 3. done
-
+		//int number=1;
+		//for(int i = 0; i < 10; i++) {
+		//for(int j = 0; j < 10; j++) {
+		//System.out.print(number+ " ");
+		//number++;	
+		//}
+		//System.out.println();
+		//}
+		 //Nested For-loops - 3. done
+		//for(int i=1; i<7; i++) {
+		//for(int j=0; j<i; j++) {			
+		//System.out.print("* ");
+		//}
+		//System.out.println();
+		//}
+		//Nested For-loops - 4. done :¬D
+//playing moosic :D
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
