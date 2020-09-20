@@ -1,5 +1,7 @@
 package _04_practice._1_skill_practice;
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 public class SkillPractice {
@@ -44,16 +46,14 @@ void skill2() { // Write a loop to print every third number between 1 and 30 to 
 for(int i=3; i<30;i+=3) {
 	System.out.println(i);
 }
-
-
-
-
-
 }
 
 void skill3() { // Get a random number that is less than 20 and print it to the console 
+System.out.println();
+Random rand=new Random();
+int randNum = rand.nextInt(20+1);
 
-
+//playing music ∂w∂
 
 //Get another random number that is less than 10 and print it to the console 
 
