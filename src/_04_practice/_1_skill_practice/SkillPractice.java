@@ -17,28 +17,33 @@ void skill1() {
 //Ask the user how many dimes they have
 String dime = JOptionPane.showInputDialog("How many dimes do you have? (express in number form)");
 //do parse int next time too lazy uwu
-
-
+Integer.parseInt(dime);
+int dimes = Integer.parseInt(dime);
 //Tell them how many cents they have (hint multiply by 10)
-
+JOptionPane.showMessageDialog(null, "You have "+ dimes+"0 cents!");
 
 
 
 //Ask the user how tall they are (inches)
-
-
-
+String height = JOptionPane.showInputDialog("How tall are you? (in inches, please)");
+Integer.parseInt(height);
+int height2 = Integer.parseInt(height);
 
 //If they are shorter than 36 inches, tell them to eat their Wheaties
-
-
-
+if(height2<36) {
+	JOptionPane.showMessageDialog(null, "Go eat some Wheaties, shortie");
+}
+else{
+	JOptionPane.showMessageDialog(null, "Ok");
+}
 
 }
 
 void skill2() { // Write a loop to print every third number between 1 and 30 to the console 
 
-
+for(int i=3; i<30;i+=3) {
+	System.out.println(i);
+}
 
 
 
