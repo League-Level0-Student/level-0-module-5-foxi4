@@ -6,14 +6,20 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.JApplet;
+import javax.swing.JOptionPane;
 
 public class Code4Life {
 
 	// 1. Ask the user how many hours they spent coding this week.
-
+String hours = JOptionPane.showInputDialog("How many hours did you spend coding this week?");
+int hours2 = Integer.parseInt(hours);{
 	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
-
+if(hours2==2) {
+	JOptionPane.showMessageDialog(null, "Stop watching Youtube and write code.");
+}
+}
+//continue where left off, make sure do something about less than or equal to 2
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja
 
