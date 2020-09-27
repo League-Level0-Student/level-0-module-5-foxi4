@@ -17,57 +17,63 @@ public static void main(String[] args) {
 void skill1() {
 //Use pop-ups for the following.
 //Ask the user how many dimes they have
-String dime = JOptionPane.showInputDialog("How many dimes do you have? (express in number form)");
-//do parse int next time too lazy uwu
-Integer.parseInt(dime);
-int dimes = Integer.parseInt(dime);
+//String dime = JOptionPane.showInputDialog("How many dimes do you have? (express in number form)");
+	//Integer.parseInt(dime);
+	//int dimes = Integer.parseInt(dime);
 //Tell them how many cents they have (hint multiply by 10)
-JOptionPane.showMessageDialog(null, "You have "+ dimes+"0 cents!");
+	//JOptionPane.showMessageDialog(null, "You have "+ dimes+"0 cents!");
 
 
 
 //Ask the user how tall they are (inches)
-String height = JOptionPane.showInputDialog("How tall are you? (in inches, please)");
-Integer.parseInt(height);
-int height2 = Integer.parseInt(height);
+	//String height = JOptionPane.showInputDialog("How tall are you? (in inches, please)");
+	//Integer.parseInt(height);
+	//int height2 = Integer.parseInt(height);
 
 //If they are shorter than 36 inches, tell them to eat their Wheaties
-if(height2<36) {
-	JOptionPane.showMessageDialog(null, "Go eat some Wheaties, shortie");
-}
-else{
-	JOptionPane.showMessageDialog(null, "Ok");
-}
+	//if(height2<36) {
+	//JOptionPane.showMessageDialog(null, "Go eat some Wheaties, shortie");
+	//}
+	//else{
+	//	JOptionPane.showMessageDialog(null, "Ok");
+	//}
 
 }
 
 void skill2() { // Write a loop to print every third number between 1 and 30 to the console 
 
-for(int i=3; i<30;i+=3) {
-	System.out.println(i);
-}
-}
+	//for(int i=3; i<30;i+=3) {
+	//System.out.println(i);
+	//}
+	}
 
 void skill3() { // Get a random number that is less than 20 and print it to the console 
-System.out.println();
-Random rand=new Random();
-int randNum = rand.nextInt(20+1);
-
-//playing music ∂w∂
+//int answer;
+	//Random rand=new Random();
+	//int randNum = rand.nextInt(20+1);
+	//System.out.println(randNum);
 
 //Get another random number that is less than 10 and print it to the console 
-
-
+	//Random rando=new Random();
+	//int randNum2 = rando.nextInt(10+1);
+	//System.out.println(randNum2);
 
 //Using a pop-up, tell the user the difference between the numbers // Hint: use subtraction 
 
+	//answer = (randNum - randNum2);
+	//JOptionPane.showMessageDialog(null, "The difference between the numbers are " + answer + ".");
 
 
 }
 
 void skill4() { // In a pop-up, ask the user for the city they live in 
-
-
+	//String city = JOptionPane.showInputDialog("Which city do you live in?");
+//if(city.equals("San Diego")) {
+	//JOptionPane.showMessageDialog(null, "You live in America's finest city. yay");
+//}
+//else {
+	//JOptionPane.showMessageDialog(null, "Move to San Diego.");
+//}
 
 //If they answered "San Diego", tell them they live in America's Finest City 
 
@@ -76,24 +82,39 @@ void skill4() { // In a pop-up, ask the user for the city they live in
 //Otherwise, tell them to move to San Diego 
 
 
+//String cars = JOptionPane.showInputDialog("How much cars do you have in your family?");
+//Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation."
+//int car = Integer.parseInt(cars);
+//if(car==0) {
 
-//Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation." 
-
-
-
+	//JOptionPane.showMessageDialog(null, "im pretty sure you use public transportation");
+	//}
 //If there is 1 car, use a pop-up to display the make/model of the car 
-
+//if(car==1) {
+	//	JOptionPane.showMessageDialog(null, "  ______\n" + 
+			//	" /|_||_\\`.__\n" + 
+			//	"(   _    _ _\\\n" + 
+			//	"=`-(_)--(_)-'"
+			//	+ "car.");
+	//}
 
 
 //If there is more than 1 car, use a pop-up to display how many wheels the // cars have between them. 
+//else {
 
+//	int multiply = 4;
+//	int answer2 = (car * multiply);
+//	JOptionPane.showMessageDialog(null, "You have the total of " + answer2 + " wheels out of your cars ;)");
+	
+	
+//}
 
 
 }
 
 void skill5() { // In a pop-up, ask the user for the name of their school 
-
-
+String schoolName = JOptionPane.showInputDialog("What is the name of your school");
+JOptionPane.showMessageDialog(null, "Wow " + schoolName + " is a fantastic school!");
 
 //In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message. 
 
