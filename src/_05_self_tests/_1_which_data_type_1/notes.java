@@ -9,5 +9,19 @@ public static void main(String[] args) {
 	//boolean is for...
 	//String is for words, like: String location = "San Diego";
 	//  p o o  :)
+	
+	
+	
+	
+	
+	//SUPER IMPORTANT STUFF I GOT FROM KAHOOT: SUPER SUPER IMPORTANT
+	//primitive types (int, double, boolean, etc.), is ALWAYS lower case
+	//String technically is a reference type, but you can initialitize it to a primitive
+	//to know a type is primitive it turns purple when typed
+	//char has an ouput like 'x'    NOT "x"– those are for others like String
+	//boolean is true or false
+	//int are only whole numbers. decimals and cents don't count.
+	//double are numbers that can have decimals and cents (probably used more for money)
+
 }
 }
