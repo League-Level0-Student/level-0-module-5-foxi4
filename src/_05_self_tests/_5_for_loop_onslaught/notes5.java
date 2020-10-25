@@ -8,5 +8,6 @@ public class notes5 {
 	//TAKE YOUR TIME- um unless you are on a tight time limit then hurry a lil but always..
 	// DOUBLE CHECK YE
 	//(☞ﾟヮﾟ)☞ ☜(ﾟヮﾟ☜) uwu
-	
+
+	//WRITING BECAUSE I NEED SOMETHING TO SAVE: POO PO O PE EE EPEEE :D
 }
