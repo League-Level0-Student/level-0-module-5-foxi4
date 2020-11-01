@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	//String is for words, like: String location = "San Diego";
 	//  p o o  :)
 	//writing this because I need some changes
-	
+	//again sigh
 	
 	
 	
